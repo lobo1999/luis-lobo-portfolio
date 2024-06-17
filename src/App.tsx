@@ -1,5 +1,3 @@
-import * as React from "react"
-import { useState } from 'react'
 import './App.css'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -50,7 +48,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-import { CalendarDays, Mic } from "lucide-react"
+import { CalendarDays } from "lucide-react"
 
 function App() {
 
