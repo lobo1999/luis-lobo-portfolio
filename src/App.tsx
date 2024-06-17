@@ -1,8 +1,5 @@
 import * as React from "react"
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Autoplay from "embla-carousel-autoplay"
 import './App.css'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -14,7 +11,6 @@ import DockerLogo from "/Docker.png"
 import EFSetLogo from "/EFSet.png"
 import GCPCloudDeveloperLogo from "/GCPCloudDeveloper.png"
 import UiPathAcademyLogo from "/UiPathAcademy.png"
-import backgroundPortfolio from "/background.jpg"
 import { MdPhoneInTalk } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
