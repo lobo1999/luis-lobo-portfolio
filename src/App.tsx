@@ -418,7 +418,7 @@ export function DialogProjectTimesheets() {
         <DialogHeader>
           <DialogTitle>Massive Timesheets</DialogTitle>
           <DialogDescription>
-            Massive Timesheets: RPA solution for a multinational consumer credit reporting agency ensuring accurate tracking of work hours, boosts productivity and compliance effortlessly.
+            Massive Timesheets: RPA solution for a multinational consumer credit reporting agency ensuring accurate tracking of work hours, boosts productivity and compliance effortlessly
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>
