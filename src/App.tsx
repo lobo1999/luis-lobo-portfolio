@@ -53,7 +53,6 @@ import {
 import { CalendarDays, Mic } from "lucide-react"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
