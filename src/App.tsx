@@ -177,7 +177,8 @@ export function HoverCardCertifications() {
             </Avatar>
             <div className="space-y-1">
               <p className="text-sm">
-                The badge earner is able to describe and apply the science of Process Mining inside of Celonis Analyses. They can use the Celonis to analyze process data and identify value opportunities.              </p>
+                The badge earner is able to describe and apply the science of Process Mining inside of Celonis Analyses. They can use the Celonis to analyze process data and identify value opportunities.
+              </p>
               <br></br>
               <a className="fcc-btn" href="https://www.credly.com/badges/87cb0403-9462-4ece-bfc0-c4c0a3e2ebd5?source=linked_in_profile">Online Badge</a>
               <div className="flex items-center pt-2">
@@ -236,7 +237,7 @@ export function HoverCardCertifications() {
             </Avatar>
             <div className="space-y-1">
               <p className="text-sm">
-                Google Professional Cloud Developer: Cloud Applications & APIs Learn how to set session lengths for Google Cloud services and how to deploy and secure application programming interface (API) services.
+                Google Professional Cloud Developer: Cloud Applications & APIs Learn how to set session lengths for Google Cloud services and how to deploy and secure application programming interfaces.
               </p>
               <br></br>
               <a className="fcc-btn" href="https://skillsoft.digitalbadges.skillsoft.com/7030f79a-0384-4e3b-b72b-b3811f3650ca">Online Badge</a>
@@ -296,7 +297,8 @@ export function HoverCardCertifications() {
             </Avatar>
             <div className="space-y-1">
               <p className="text-sm">
-                The UiPath Academy Automation Explorer Training is a collection of curated courses covering the most essential topics in automation development for aspiring automation developers, technical business analysts, technical project managers, and other automation roles.              </p>
+                The UiPath Academy Automation Explorer Training is a collection of curated courses covering the most essential topics in automation development for aspiring automation developers.
+              </p>
               <br></br>
               <a className="fcc-btn" href="https://credentials.uipath.com/0e19648a-ce2c-45eb-97cd-92f36fd56ea9">Online Badge</a>
               <div className="flex items-center pt-2">
@@ -352,7 +354,8 @@ export function DialogProjectAbstracciones() {
         <DialogHeader>
           <DialogTitle>Edit profile</DialogTitle>
           <DialogDescription>
-            Abstracciones Literarias: Online magazine project for Museo Regional de San Ramon and "La Salita del Museo", technologies used include: React, Next.JS, Tailwind, GraphQL.          </DialogDescription>
+            Abstracciones Literarias: Online magazine project for Museo Regional de San Ramon and "La Salita del Museo", technologies used include: React, Next.JS, Tailwind, GraphQL.
+          </DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
@@ -385,7 +388,8 @@ export function DialogProjectEsencia() {
         <DialogHeader>
           <DialogTitle>Esencia Namu</DialogTitle>
           <DialogDescription>
-            Online informative site specializing in tourism around natural beaches and resources within Costa Rica. Technologies used include React, Bootstrap, Heroku, and the Google Maps platform.          </DialogDescription>
+            Online informative site specializing in tourism around natural beaches and resources within Costa Rica. Technologies used include React, Bootstrap, Heroku, and the Google Maps platform.
+          </DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
@@ -438,7 +442,8 @@ export function DialogProjectCancellations() {
         <DialogHeader>
           <DialogTitle>Massive Timesheets</DialogTitle>
           <DialogDescription>
-            Massive Cancellations: RPA solution that enables a multinational consumer credit reporting agency to access the Salesforce platform through APIs, managing daily contract cancellations based on specified qualifications. This automated system ensures precise execution, enhancing operational efficiency and compliance.          </DialogDescription>
+            Massive Cancellations: RPA solution that enables a multinational consumer credit reporting agency to access the Salesforce platform through APIs, managing daily contract cancellations efficiently.
+          </DialogDescription>
         </DialogHeader>
         <DialogFooter>
         </DialogFooter>
@@ -457,7 +462,7 @@ export function DialogProjectReports() {
         <DialogHeader>
           <DialogTitle>Financial Reporting Solution</DialogTitle>
           <DialogDescription>
-            Financial Reporting Solution: RPA solution that empowers a multinational consumer credit firm to automate report generation across over 4 diverse workflows. Reports can vary in timing and type, seamlessly accessing internal company platforms and leveraging interactive data visualization software like Tableau.
+            Financial Reporting Solution: RPA solution that empowers a multinational consumer credit firm to automate report generation across over 4 diverse workflows. Reports can vary in timing and format. 
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>
