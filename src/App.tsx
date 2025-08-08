@@ -112,7 +112,12 @@ export function HoverCardCertifications() {
       title: "Microsoft Azure AI Fundamentals",
       desc: "Foundational knowledge of machine learning (ML) and AI concepts and related Azure services.",
       date: "Obtained May 25, 2022",
-      badge: "https://: "Foundational knowledge of core data concepts and implementation using Azure data services.",
+      badge: "https://www.credly.com/badges/193ad71c-a49e-4ec4-8087-bc02f7d2fde1"
+    },
+    {
+      img: microsoftDataLogo,
+      title: "Microsoft Azure Data Fundamentals",
+      desc: "Foundational knowledge of core data concepts and implementation using Azure data services.",
       date: "Obtained April 08, 2022",
       badge: "https://www.credly.com/badges/9fa6fb02-ed08-45de-b542-9fa42ae2a622?source=linked_in_profile"
     },
@@ -150,7 +155,7 @@ export function HoverCardCertifications() {
       desc: "UiPath Academy Automation Explorer Training for automation development.",
       date: "Obtained February 03, 2024",
       badge: "https://credentials.uipath.com/0e19648a-ce2c-45eb-97cd-92f36fd56ea9"
-    },
+    }
   ];
   return certs.map(cert => (
     <HoverCard key={cert.title}>
@@ -179,7 +184,7 @@ export function HoverCardCertifications() {
         </div>
       </HoverCardContent>
     </HoverCard>
-  ))
+  ));
 }
 
 export function DialogProjectAbstracciones() {
