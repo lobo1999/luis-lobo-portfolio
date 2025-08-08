@@ -112,12 +112,7 @@ export function HoverCardCertifications() {
       title: "Microsoft Azure AI Fundamentals",
       desc: "Foundational knowledge of machine learning (ML) and AI concepts and related Azure services.",
       date: "Obtained May 25, 2022",
-      badge: "https://www.credly.com/badges/193ad71c-a49e-4ec4-8087-bc02f7d2fde1"
-    },
-    {
-      img: microsoftDataLogo,
-      title: "Microsoft Azure Data Fundamentals",
-      desc: "Foundational knowledge of core data concepts and implementation using Azure data services.",
+      badge: "https://: "Foundational knowledge of core data concepts and implementation using Azure data services.",
       date: "Obtained April 08, 2022",
       badge: "https://www.credly.com/badges/9fa6fb02-ed08-45de-b542-9fa42ae2a622?source=linked_in_profile"
     },
