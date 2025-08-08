@@ -1,45 +1,43 @@
 import './App.css'
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Separator } from "@/components/ui/separator"
-import microsoftAILogo from "/MicrosoftAI.png"
-import microsoftDataLogo from "/MicrosoftData.png"
-import celonisProcessLogo from "/ProcessMining.png"
-import DockerLogo from "/Docker.png"
-import EFSetLogo from "/EFSet.png"
-import GCPCloudDeveloperLogo from "/GCPCloudDeveloper.png"
-import UiPathAcademyLogo from "/UiPathAcademy.png"
+import { Badge } from "./components/ui/badge"
+import { Button } from "./components/ui/button"
+import { Separator } from "./components/ui/separator"
+import microsoftAILogo from "./assets/MicrosoftAI.png"
+import microsoftDataLogo from "./assets/MicrosoftData.png"
+import celonisProcessLogo from "./assets/ProcessMining.png"
+import DockerLogo from "./assets/Docker.png"
+import EFSetLogo from "./assets/EFSet.png"
+import GCPCloudDeveloperLogo from "./assets/GCPCloudDeveloper.png"
+import UiPathAcademyLogo from "./assets/UiPathAcademy.png"
 import { MdPhoneInTalk } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
-import yo from "/yo.jpeg"
+import yo from "./assets/yo.jpeg"
 import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
+} from "./components/ui/dialog"
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Label } from "@/components/ui/label"
+} from "./components/ui/accordion"
+import { Label } from "./components/ui/label"
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/components/ui/avatar"
-import { Card, CardContent } from "@/components/ui/card"
+} from "./components/ui/avatar"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card"
+} from "./components/ui/hover-card"
 import { CalendarDays } from "lucide-react"
 
 function App() {
@@ -75,25 +73,25 @@ function App() {
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-xl text-blue-900">Projects</AccordionTrigger>
             <AccordionContent className="flex flex-wrap gap-3 justify-center">
-              {DialogProjectAbstracciones()}
-              {DialogProjectEsencia()}
-              {DialogProjectTimesheets()}
-              {DialogProjectCancellations()}
-              {DialogProjectReports()}
+              <DialogProjectAbstracciones />
+              <DialogProjectEsencia />
+              <DialogProjectTimesheets />
+              <DialogProjectCancellations />
+              <DialogProjectReports />
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-xl text-blue-900">Certifications</AccordionTrigger>
             <AccordionContent>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {HoverCardCertifications()}
+                <HoverCardCertifications />
               </div>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger className="text-xl text-blue-900">Skills</AccordionTrigger>
             <AccordionContent>
-              {SeparatorDemo()}
+              <SeparatorDemo />
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -107,7 +105,6 @@ function App() {
 
 export default App
 
-// CERTIFICATIONS HOVERCARDS
 export function HoverCardCertifications() {
   const certs = [
     {
@@ -163,12 +160,12 @@ export function HoverCardCertifications() {
   return certs.map(cert => (
     <HoverCard key={cert.title}>
       <HoverCardTrigger asChild>
-        <Card className="bg-white/90 shadow-md rounded-xl cursor-pointer p-2 flex justify-center items-center hover:scale-105 transition">
+        <div className="bg-white/90 shadow-md rounded-xl cursor-pointer p-2 flex justify-center items-center hover:scale-105 transition">
           <Avatar>
             <AvatarImage src={cert.img} />
             <AvatarFallback>{cert.title.slice(0,2)}</AvatarFallback>
           </Avatar>
-        </Card>
+        </div>
       </HoverCardTrigger>
       <HoverCardContent className="w-72 bg-blue-50/95 border border-blue-200 shadow-xl rounded-xl">
         <div className="flex gap-4">
@@ -190,7 +187,6 @@ export function HoverCardCertifications() {
   ))
 }
 
-// PROJECTS DIALOGS
 export function DialogProjectAbstracciones() {
   return (
     <Dialog>
@@ -311,7 +307,6 @@ export function DialogProjectReports() {
   )
 }
 
-// SKILLS
 export function SeparatorDemo() {
   const techSkills = [
     "UiPath", "JavaScript", "React.JS", "GCP", "C#", "Git", "Salesforce", "Java", "SQL", "Next.JS", "GraphQL", "MVC", "Azure", "BigQuery", "Kubernetes"
